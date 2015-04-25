@@ -1,0 +1,28 @@
+PODS:
+  - Expecta (0.4.2)
+  - Expecta+Snapshots (1.3.2):
+    - Expecta (~> 0.3)
+    - FBSnapshotTestCase (= 1.6)
+  - FBSnapshotTestCase (1.6)
+  - SavvyLayout (0.1.0)
+  - Specta (0.5.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - SavvyLayout (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  SavvyLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
+  Expecta+Snapshots: 40c5ec43b43da3bae957f14fed5dc9177d08ec8b
+  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  SavvyLayout: 8ca2da28e3e1d63890bd884ecbf4ef64292829a1
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+
+COCOAPODS: 0.36.3
