@@ -1,3 +1,5 @@
+(DO NOT USE, THIS IS STILL WORK IN PROGRESS)
+
 # SavvyLayout
 
 [![CI Status](http://img.shields.io/travis/Raymond Jia/SavvyLayout.svg?style=flat)](https://travis-ci.org/Raymond Jia/SavvyLayout)
@@ -22,7 +24,7 @@ pod "SavvyLayout"
 
 ## Author
 
-Raymond Jia, raymond@gmail.com
+Raymond Jia, raymondjia@gmail.com
 
 ## License
 
