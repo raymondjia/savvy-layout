@@ -35,6 +35,7 @@
 		494EA2D01702C619311336B3 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 539AA63243B1133C6ED8D6C8 /* EXPMatchers+beSubclassOf.h */; };
 		4BB6A0655398C65357A7DF4A /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB663F30B608BE8B9291C /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4C55C47A0D2B5804DEBF9016 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0B725BB5C312B02E61AC31 /* EXPMatchers.h */; };
+		4D0FBD4A1AEC9BE600CD6BEE /* SavvyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FBD481AEC9BE600CD6BEE /* SavvyLayout.m */; };
 		4DF7B9B7B84ACE2D7C7DEAA1 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = A21E62FFC682D843C38C7C1C /* FBSnapshotTestController.h */; };
 		4FFADF19005010E36EAF7C04 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = BB24EABE74F4DACA1E5FAB00 /* SPTGlobalBeforeAfterEach.h */; };
 		516F8A239737E49A77581B3E /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB5EC64A6E0765278F91B7C /* EXPMatchers+beSupersetOf.h */; };
@@ -243,6 +244,8 @@
 		446AEC518B27DCB29BA521DF /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
 		4A0B417693C5AE36AD57D11A /* Pods-Tests-Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Specta.xcconfig"; sourceTree = "<group>"; };
 		4C271CEAC0A44F0FCE47BA66 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
+		4D0FBD471AEC9BE600CD6BEE /* SavvyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SavvyLayout.h; path = Pod/Classes/SavvyLayout.h; sourceTree = "<group>"; };
+		4D0FBD481AEC9BE600CD6BEE /* SavvyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SavvyLayout.m; path = Pod/Classes/SavvyLayout.m; sourceTree = "<group>"; };
 		4DC6473DAD99069CF3285817 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		506FFE5097D66DF0E6E86C12 /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		52C3CA44EE6BC9FDF6AD282A /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
@@ -584,6 +587,8 @@
 		817AF543B4E54D3773F28A2E /* SavvyLayout */ = {
 			isa = PBXGroup;
 			children = (
+				4D0FBD471AEC9BE600CD6BEE /* SavvyLayout.h */,
+				4D0FBD481AEC9BE600CD6BEE /* SavvyLayout.m */,
 			);
 			name = SavvyLayout;
 			path = ../..;
@@ -1097,6 +1102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0FBD4A1AEC9BE600CD6BEE /* SavvyLayout.m in Sources */,
 				35E652DF68C159D9F32091DB /* Pods-SavvyLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
